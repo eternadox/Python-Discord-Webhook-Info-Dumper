@@ -28,7 +28,7 @@ os.system(f'cd {dir_path}')
 BROWSER = installedBrowser()
 IPLINK = "https://api.ipify.org/?format=json"
 GEOLINK = "http://ip-api.com/json/"
-VPNLink = "https://vpn-proxy-detection.ipify.org/api/v1?apiKey=at_5SVrlmr5yX60PRJFrTJnQWrcnUqfE&ipAddress="
+VPNLink = "https://vpn-proxy-detection.ipify.org/api/v1?apiKey=(PUT YOUR API KEY HERE)&ipAddress="
 IFCONFIG = "https://ifconfig.me/all.json"
 HOSTNAME = socket.gethostname()
 USERNAME = getpass.getuser()
