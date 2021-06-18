@@ -10,4 +10,5 @@ Features:
 * ISP Fetcher
 * Timezone Fetcher
 * Hostname and Username Fetcher
+---------------------------------------------------------------------------------------
 _WARN: This one is for educational purposes only! I do not recommend using it on people!_
