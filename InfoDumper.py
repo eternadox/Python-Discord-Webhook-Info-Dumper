@@ -48,7 +48,7 @@ data3 = req2.json()
 req3 = requests.get(url = IFCONFIG)
 data4 = req3.json()
 
-USERAGENT = data4["user_agent"]
+USERAGENT = data4["user_agent"] # user agent is useless due to request using python requests
 VPN = data3["proxy"]["vpn"]
 COUNTRY = data2["countryCode"]
 CITY = data2["city"] + ", "+ data2["region"]
